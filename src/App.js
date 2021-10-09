@@ -14,6 +14,8 @@ class App extends Component {
 
   static propTypes = {
     good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
   }
 
   onLeaveFeedback = e => {
