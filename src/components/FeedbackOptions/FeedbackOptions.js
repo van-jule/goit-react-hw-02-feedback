@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../FeedbackOptions/FeedbackOptions.module.css'
+import PropTypes from 'prop-types'
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div className="wrap">
@@ -10,5 +11,9 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
     ))}
   </div>
 )
+
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func,
+}
 
 export default FeedbackOptions
