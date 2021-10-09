@@ -16,30 +16,6 @@ class App extends Component {
     good: PropTypes.number,
   }
 
-  // goodIncrement = () => {
-  //   this.setState(prevState => {
-  //     return {
-  //       good: prevState.good + 1,
-  //     }
-  //   })
-  // }
-
-  // neutralIncrement = () => {
-  //   this.setState(prevState => {
-  //     return {
-  //       neutral: prevState.neutral + 1,
-  //     }
-  //   })
-  // }
-
-  // badIncrement = () => {
-  //   this.setState(prevState => {
-  //     return {
-  //       bad: prevState.bad + 1,
-  //     }
-  //   })
-  // }
-
   onLeaveFeedback = e => {
     const value = e.target.value
     console.log(e.target)
